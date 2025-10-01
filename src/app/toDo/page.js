@@ -38,8 +38,8 @@ const Page = () => {
                             {
                                 data1.map((item,index)=> {
                                    return (
-                                       <div  key={index} className={"flex justify-between mt-[5px]"}>
-                                          <div className={"flex items-center"}>
+                                       <div  key={index} className={"flex justify-between mt-[5px] border-b-2 border-dashed pb-2"}>
+                                          <div className={"flex items-center "}>
                                               <button onClick={()=>{complete(index)}} className={"cursor-pointer mr-[3px]"}>{ind.includes(index)?"☑":"☐"}</button>
                                               <li style={{textDecoration:ind.includes(index)?"line-through":"none"}} className={"text-[16px]"}>{item}</li>
                                           </div>
