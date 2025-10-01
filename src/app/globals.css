@@ -10,6 +10,21 @@
     }
 
 }
+
 .colorAnimate {
     animation: colorAnimate 0.25s infinite;
+}
+@keyframes textAnimate {
+    from{
+
+
+    }
+    to{
+
+
+    }
+}
+.textAnimate {
+    background: linear-gradient(90deg, #1A73E8, #FF6B6B, #FFD93D, #1A73E8);
+    animation: textAnimate 1.25s  infinite;
 }
