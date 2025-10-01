@@ -12,9 +12,9 @@ const Page = () => {
                     <button className={"bg-[#ffd166] w-[63px] h-[60px] rounded-[8px] text-[35px] text-center "}>*</button>
                 </div>
                 <div className={"mt-[10px]"}>
-                    <button className={"bg-[#bbdffb] w-[63px] h-[60px] rounded-[8px] text-[35px] text-center mr-[9px]"}>7</button>
-                    <button className={"bg-[#bbdffb] w-[63px] h-[60px] rounded-[8px] text-[35px] text-center mr-[9px]"}>8</button>
                     <button className={"bg-[#bbdffb] w-[63px] h-[60px] rounded-[8px] text-[35px] text-center mr-[9px]"}>9</button>
+                    <button className={"bg-[#bbdffb] w-[63px] h-[60px] rounded-[8px] text-[35px] text-center mr-[9px]"}>8</button>
+                    <button className={"bg-[#bbdffb] w-[63px] h-[60px] rounded-[8px] text-[35px] text-center mr-[9px]"}>7</button>
                     <button className={"bg-[#bbdffb] w-[63px] h-[60px] rounded-[8px] text-[35px] text-center "}>6</button>
                 </div>
                 <div className={"mt-[10px]"}>
