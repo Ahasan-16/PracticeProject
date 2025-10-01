@@ -12,10 +12,12 @@ const Page = () => {
         setData("");
 
     }
+    const [ind, setInd] = useState([])
     const remove=(index)=>{
         setData1(prevArray => prevArray.filter((element,i)=>i!==index));
+        setInd(prevArray => prevArray.filter((element,i)=>element!==index));
     }
-    const [ind, setInd] = useState([])
+
     const complete=(index)=>{
         if(ind.includes(index)){
             setInd(preArr=>preArr.filter((element,i)=>element!==index))
