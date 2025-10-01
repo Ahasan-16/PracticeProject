@@ -29,7 +29,7 @@ const Page = () => {
                     <button className={"bg-[#bbdffb] w-[63px] h-[60px] rounded-[8px] text-[35px] text-center mr-[9px]"}>.</button>
                     <button className={"bg-[#f55c47] w-[63px] h-[60px] rounded-[8px] text-[35px] text-center  text-white"}>c</button>
                 </div>
-                <div className={"absolute left-[205px] top-[510px]"}>
+                <div className={"absolute left-[625px] top-[510px]"}>
                     <button className={"w-[142px] h-[60px] bg-[#06d6a0] rounded-[8px] text-[35px] text-center"}>=</button>
                 </div>
 
