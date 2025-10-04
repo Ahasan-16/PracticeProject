@@ -50,7 +50,7 @@ const Page = () => {
                 </div>
                 <div className={"flex justify-center mt-[20px]"}>
                     <input ref={myref} onChange={(e)=>setCity(e.target.value)} className={"w-[540px] h-[45px] bg-[rgba(34,34,34,0.8)] rounded-[10px] mr-[20px] p-[10px] text-gray-50"} placeholder={"Enter city name..."}/>
-                    <button onClick={()=>{getData(city)}} className={"w-[90px] h-[45px] bg-[#ff8c00] rounded-[13px] text-gray-50 text-[16px]" }>Search</button>
+                    <button onClick={()=>{getData(city)}} className={"w-[90px] h-[45px] bg-yellow-600 hover:bg-[#ff8c00] cursor-pointer rounded-[13px] text-gray-50 text-[16px]" }>Search</button>
                 </div>
                 <div className={"w-[660px]  bg-[rgba(34,34,34,0.8)] rounded-[10px] mt-[20px] pl-[40px]"}>
                     <div></div>
